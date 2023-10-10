@@ -1,0 +1,96 @@
+
+Intro 00:00
+Info 02:23
+Goals 04:57
+Structure 06:40
+Dev Environment 08:56
+Vs Code And Chrome 09:56
+Extensions 13:22
+Emmet 24:57
+Basics Intro 28:24
+Setup Project 28:41
+Inline Javascript 31:51
+Internal Javascript 35:07
+External Javascript 42:59
+Cleanup Workspace 53:01
+Helper Methods 54:10
+Statments And Comments 1:04:17
+Variables 1:16:20
+Assign Value Later 1:25:08
+Variable Naming Rules 1:29:31
+Const, Let, Var 1:35:36
+Quatation Marks 1:40:51
+String Concatenation 1:46:43
+Number Basics 1:52:08
+Numbers - Additional Features 2:00:29
+Implicit Type Conversion 2:08:53
+Data Types 2:20:54
+Arrays 2:29:08
+Functions - Declare, Invoke 2:40:23
+Functions - Parameters, Arguments 2:46:50
+Functions - Return 2:59:47
+Functions - Expressions 3:13:09
+Objects 3:20:53
+Conditional Statements - Basics 3:29:17
+Conditional Statements Continued 3:35:15
+Equality 3:42:18
+Logical Operators 3:46:43
+Switch Statement 3:51:08
+While Loops 3:58:36
+Do While Loops 4:04:32
+For Loop 4:07:30
+Connect The Dots 4:11:34
+String Properties And Methods 4:11:58
+Template Literals 4:28:33
+Array Properties And Methods 4:34:43
+Exercise - Full Name 4:46:34
+Exercise - Calculate Total 4:56:48
+Value Vs Reference 5:11:29
+Null And Undefined 5:17:21
+Truthy And Falsy 5:19:36
+Ternary Operator 5:24:11
+Global Scope 5:28:27
+Local Scope 5:35:53
+Variable Lookup 5:42:55
+Callback Functions, Higher Order Functions 5:49:47
+Array Iterators 6:04:54
+For Each 6:07:16
+Map 6:17:00
+Filter 6:27:43
+Find 6:31:38
+Reduce 6:40:08
+Math Object 6:49:56
+Date Object 6:58:29
+Dom Intro 7:07:47
+DOM - General Concepts 7:10:26
+Window And Document Overview 7:19:06
+GetElementById 7:23:21
+Get Elements By Tag Name 7:30:13
+Get Elements By Class Name 7:38:45
+QuerySelector And QuerySelectorAll 7:41:19
+Navigate The Dom - Children 7:48:05
+Navigate The Dom - Parent Element 7:53:00
+Navigate The Dom - NextSibling, PrevSibling 7:56:07
+Navigate The Dom - Next/Prev Element Sibling 8:00:36
+TextContent And NodeValue 8:01:52
+GetAttribute(), SetAttribute() 8:04:50
+ClassList And ClassName 8:13:00
+CreateElement 8:22:29
+InsertBefore 8:30:39
+ReplaceChild 8:34:23
+Prepend InnerText 8:36:47
+Remove And RemoveChild 8:39:57
+InnerHTML And TextContent 8:44:50
+Change CSS With Style Property 8:53:15
+Events Overview 8:58:23
+Click Event 9:00:13
+Function Reference 9:07:37
+Mouse Events 9:12:29
+Key Events 9:17:47
+Event Object 9:22:01
+CurrentTarget Vs Target 9:32:50
+Event Bubbling Capturing 9:40:24
+Event Propogation Example 9:51:04
+Form Submit 9:58:32
+Local Storage 10:04:24
+Local Storage With Multiple Values 10:13:46

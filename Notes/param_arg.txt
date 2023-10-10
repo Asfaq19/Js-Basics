@@ -1,0 +1,37 @@
+Parameters and arguments are terms used in programming to distinguish 
+between two related concepts when defining and calling functions or methods.
+
+1. Parameters:
+- Parameters are variables or placeholders defined in a function or method declaration. 
+They act as input slots that allow you to pass values into the function when it's called.
+- Parameters define the data type and the name of the values that the function expects to receive.
+- They serve as a kind of contract between the function definition and its callers, specifying what 
+  kind of data the function should operate on.
+
+2. Arguments:
+- Arguments are the actual values or expressions that are passed to a function or method when it is called.
+- Arguments are the concrete data that you supply to the function based on the parameters it expects.
+- When a function is called, the arguments provided must match the parameters in terms of data type and order.
+Here's an example in C++ to illustrate the difference between parameters and arguments:
+```cpp
+
+#include <iostream>
+// This is a function declaration with two parameters
+void printSum(int num1, int num2);
+int main() {
+int a = 5;
+int b = 7;
+// Here, a and b are arguments passed to the function printSum
+printSum(a, b);
+return 0;
+}
+// This is the function definition that uses the parameters
+void printSum(int num1, int num2) {
+int sum = num1 + num2;
+std::cout << "Sum is: " << sum << std::endl;
+}
+```
+In this example, `printSum` is a function with two parameters `num1` and `num2`. 
+When calling this function in `main`, `a` and `b` are the arguments passed to it. 
+The function uses these arguments (values of `a` and `b`) to perform a calculation and print the result. 
+Parameters are like placeholders that receive the actual values provided as arguments when the function is called.

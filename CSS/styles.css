@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+.container{
+    border: 6px solid black;
+    display: flex;
+    
+    /* justify-content property align items based on the main access */
+    /* by default justify-content is set to the value flex-start which
+       places the flex items at the beginning of the main access which is
+       also known as main start. (at the very left)
+    */
+    /* justify-content: flex-start; */
+
+
+    /* this passes the flex items to be placed at the end of the main access 
+       (at the very right)
+    */
+    /* justify-content: flex-end;  */
+
+    /* at the center */
+    /* justify-content: center;  */
+
+    /* how the extra space has to be distributed */
+    /* justify-content: space-between;  */
+    
+    /* sometimes it may need space before the first item and the last item 
+       here, the space is equal to half of the space between the flex items.
+       For example: if the space between the items is 20px, then the space at
+       the very first and last is 10px.
+    */
+
+    /* justify-content: space-around;  */
+    
+    /* if you want as same as 20px at the first and last then, */
+    /* justify-content: space-evenly;  */
+
+    /* -------------------------------------------------------------- */
+    /* if we set  the flex-direction to  column justify-content deals 
+       with vertical alignments 
+    */
+    /* flex-direction: column;
+    height: 800px; */
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+
+
+}
+
+/* .flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.item-1{
+    background-color: #B4BF35;
+}
+
+.item-2{
+    background-color: #B95F21;
+}
+
+.item-3{
+    background-color: #19c444;
+}
+
+.item-4{
+    background-color: #a50d19;
+}
+
+.item-5{
+    background-color: #123c97;
+} */
+
+/* ---------------------------------------------- */
+/* ----------------------------------------------- */
+/* -------------------- Flexbox ----------------- */
+/* what is flexbox */
+/* The flexbox module or simply known as flexbox is a one-dimensional
+   layout model.
+   It allows you to design flexible and efficient layouts, align and 
+   distribute space among items in a container.
+*/

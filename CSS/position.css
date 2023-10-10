@@ -1,0 +1,70 @@
+body{
+    height: 200vh;
+}
+
+.container{
+    width: 550px;
+    border: 2px solid black;
+    margin: 50px auto;
+
+    /* container normally is static, we have to change the behavior to relative */
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.purple{
+    background-color: purple;
+    
+    /* position: static; */
+    
+    /* takes the box relative(left->right) to it's original position */
+    position: relative;
+
+    left: 50px;
+    top: 20px;
+}
+
+.yellow{
+    background-color: yellow;
+    
+    /* placed above the red box */
+    position: absolute;
+    /* moved very right of the page, 
+       and is not inside the container ...
+       it breaks the document flow.
+       when we declare an absolute positioning they take 
+       their new reference point to body itself
+    */
+    right: 5px;
+    /* left: 5px; */
+
+    /* stay front or behind 0,-1*/
+    /* z-index: -1; */
+}
+
+.red{
+    background-color: red;
+
+    /* always stays in the same position even if we scroll the page */
+    position: fixed;
+    /* reference direct to the body */
+    top: 10px;
+}
+
+.orange{
+    background-color: orange;
+    
+    /* it cames to the front of the ralatively positioned element,
+       stays in the same place, not taken out of the normal document flow.
+        behaves relatively positioned element at a point, and after a 
+        scrolling point it starts behaving like a fixed positioned element,
+        it does not change it's position.
+    */
+    /* not compatible with old browsers */
+    position: sticky;
+    top: 5px;
+}
